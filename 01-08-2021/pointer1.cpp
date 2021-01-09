@@ -35,9 +35,11 @@ int main() {
   *i1p = 200;
   printf("i1 = %d, i2 = %d\n", i1, i2);
 
+  // Modified by reference
   swap(i1, i2);
   printf("i1 = %d, i2 = %d\n", i1, i2);
 
+  // Modified through pointers
   swap(&i1, &i2);
   printf("i1 = %d, i2 = %d\n", i1, i2);
 }
