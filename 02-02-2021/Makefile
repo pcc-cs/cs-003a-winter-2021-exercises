@@ -13,4 +13,4 @@ template1: template1.cpp
 	g++ -o $@ $<
 
 clean:
-	rm -f except?
+	rm -f except? template?
