@@ -1,7 +1,7 @@
 /**
  * Class demo.
  *
- Copyright (c) 2020, Sekhar Ravinutala.
+ * Copyright (c) 2020, Sekhar Ravinutala.
 */
 
 #include <string>
