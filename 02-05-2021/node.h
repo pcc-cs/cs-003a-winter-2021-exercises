@@ -12,7 +12,7 @@ struct Node {
   T value;
   Node *left;
   Node *right;
-  Node(T v) : value(v), left(nullptr), right(nullptr) {
+  explicit Node(T v) : value(v), left(nullptr), right(nullptr) {
   }
 };
 

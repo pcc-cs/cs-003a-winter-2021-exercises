@@ -28,7 +28,7 @@ int main() {
 
   // Can change pointer, but not the contents
   const char *s1 = "foo";
-  s1 = "bar"; // OK
+  s1 = "bar";  // OK
   // *s1 = 'b';
   // s1[1] = 'a';
 
@@ -37,7 +37,7 @@ int main() {
 
   // These are OK, can change all
   char *s2 = new char[4];
-  strcpy(s2, "foo");
+  strncpy(s2, "foobar", 3);
   *s2 = 'b';
   s2[1] = 'a';
 
